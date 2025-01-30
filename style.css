@@ -177,3 +177,23 @@
         left: 34vh;
     }
   }
+  /* Experience Section */
+  .experience-card {
+    background: #f9f9f9;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 600px;
+    text-align: left;
+  }
+
+  .experience-card h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .experience-card p {
+    font-size: 0.95rem;
+    color: #666;
+  }
