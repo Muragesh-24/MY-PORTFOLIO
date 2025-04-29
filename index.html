@@ -213,11 +213,20 @@
       /* Skills Section */
       .skills-grid {
         display: grid;
-        background: #f9f9f9;
+      
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         gap: 2rem;
       }
-
+      .skills ul{
+        background: #f9f9f9;
+        border-radius: 10px;
+        text-align: center;
+        padding: 1rem;
+        
+      }
+     .skills li{
+      list-style-type: none;
+     }
       /* Resume Section */
       .resume-content {
         text-align: center;
@@ -388,7 +397,7 @@
         <div class="project-cards">
           <!-- EngiGrow Project -->
           <div class="project-card">
-            <img src="assets/images/engigrow.png" alt="EngiGrow Project Screenshot" class="project-image" />
+            <!-- <img src="assets/images/engigrow.png" alt="EngiGrow Project Screenshot" class="project-image" /> -->
             <div class="project-info">
               <h3>EngiGrow</h3>
               <p>A collaboration platform fostering innovative solutions.</p>
@@ -397,7 +406,7 @@
           </div>
           <!-- IntleeBot Project -->
           <div class="project-card">
-            <img src="assets/images/intleebot.png" alt="IntleeBot Project Screenshot" class="project-image" />
+            <!-- <img src="assets/images/intleebot.png" alt="IntleeBot Project Screenshot" class="project-image" /> -->
             <div class="project-info">
               <h3>IntleeBot</h3>
               <p>A simple chatbot built using APIs.</p>
@@ -406,7 +415,7 @@
           </div>
           <!-- Password Vault Project -->
           <div class="project-card">
-            <img src="assets/images/password-vault.png" alt="Password Vault Project Screenshot" class="project-image" />
+            <!-- <img src="assets/images/password-vault.png" alt="Password Vault Project Screenshot" class="project-image" /> -->
             <div class="project-info">
               <h3>Password Vault</h3>
               <p>A secure password management solution built in Go.</p>
@@ -424,32 +433,32 @@
         <div class="skills-grid">
           <!-- Web Development Skills -->
           <div class="skill-category">
-            <h3>Web Development</h3>
             <ul>
+              <h3>Web Development</h3>
               <li>HTML, CSS, JavaScript</li>
               <li>Node.js, Express.js, MERN</li>
             </ul>
           </div>
           <!-- Backend Development Skills -->
           <div class="skill-category">
-            <h3>Backend Development</h3>
             <ul>
+              <h3>Backend Development</h3>
               <li>APIs, MongoDB</li>
               <li>Backend with Go</li>
             </ul>
           </div>
           <!-- AI/ML Skills -->
           <div class="skill-category">
-            <h3>AI/ML</h3>
             <ul>
+              <h3>AI/ML</h3>
               <li>Python, TensorFlow, Scikit-Learn</li>
               <li>CNN, ANN</li>
             </ul>
           </div>
           <!-- General Skills -->
           <div class="skill-category">
-            <h3>General</h3>
             <ul>
+              <h3>General</h3>
               <li>UX/UI principles</li>
               <li>Content strategy</li>
             </ul>
