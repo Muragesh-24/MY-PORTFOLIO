@@ -21,9 +21,9 @@
     <title>Muragesh Nyamagoud | Portfolio</title>
     <link rel="icon" href="me.png" type="image/x-icon" />
 
-    <!-- Link CSS -->
+    
     <style>
-      /* Social Icons Styling in Header & Contact */
+
       .social-links a,
       .contact-social a {
         font-size: 1.5rem;
@@ -36,12 +36,11 @@
         color: #ff6600;
       }
 
-      /* Adjust contact form labels to incorporate icons nicely */
       .form-group label i {
         margin-right: 0.5rem;
       }
 
-      /* Basic Reset and Typography */
+  
       * {
         margin: 0;
         padding: 0;
@@ -50,20 +49,20 @@
       body {
     font-family: "Roboto", sans-serif;
     line-height: 1.6;
-    color: #050404; /* Set text color to white for better contrast */
+    color: #050404; 
     background-image: url("588-1920x1080.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     transition: background 0.3s, color 0.3s;
-    scroll-behavior: smooth; /* Optional for nice animation */
+    scroll-behavior: smooth; 
   overflow: auto;
     
 
 }
 
-      /* Very light overlay for the body background */
+
       body::after {
         content: "";
         position: absolute;
@@ -82,7 +81,7 @@
         padding: 2rem 0;
       }
 
-      /* Header and Navigation */
+
       .header {
         text-align: center;
         padding: 2rem;
@@ -90,7 +89,7 @@
         color: #fff;
         position: relative;
       }
-      /* Optional header overlay to improve text contrast */
+      
       .header::before {
         content: "";
         position: absolute;
@@ -158,7 +157,7 @@
         font-weight: bold;
       }
 
-      /* Section Styling */
+     
       .section {
         padding: 4rem 0;
       }
@@ -168,7 +167,6 @@
         font-size: 2rem;
       }
 
-      /* Experience Section */
       .experience-item {
         background: #f9f9f9;
         border-radius: 10px;
@@ -179,7 +177,7 @@
         margin-bottom: 0.5rem;
       }
 
-      /* Projects Section */
+
       .project-cards {
         display: flex;
         flex-wrap: wrap;
@@ -218,7 +216,7 @@
         font-size: 0.9rem;
       }
 
-      /* Skills Section */
+   
       .skills-grid {
         display: grid;
       
@@ -235,14 +233,14 @@
      .skills li{
       list-style-type: none;
      }
-      /* Resume Section */
+ 
       .resume-content {
         text-align: center;
         font-size: 1.2rem;
         color: #777;
       }
 
-      /* Contact Form */
+
       #contactForm {
         max-width: 600px;
         margin: 0 auto;
@@ -262,7 +260,7 @@
         border-radius: 5px;
       }
 
-      /* Footer */
+
       .footer {
         background: #333;
         color: #fff;
@@ -284,7 +282,7 @@
         text-decoration: none;
       }
 
-      /* Iframe Styles for Contact Section (Google Form) */
+
       iframe {
         width: 100%;
         height: 700px;
@@ -292,7 +290,7 @@
         border-radius: 8px;
       }
 
-      /* Responsive Styles */
+   
       @media (max-width: 768px) {
         .main-nav ul {
           flex-direction: column;
@@ -303,19 +301,19 @@
         }
       }
     </style>
-    <!-- Google Fonts -->
+
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
       rel="stylesheet"
     />
-    <!-- Font Awesome for Icons -->
+   
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
   </head>
   <body>
-    <!-- Landing Page / Header -->
+
     <header class="header">
       <div class="container header-container">
         <img src="me.png" alt="Muragesh Nyamagoud" class="profile-photo" />
@@ -353,7 +351,7 @@
       </nav>
     </header>
 
-    <!-- About Section -->
+
     <section id="about" class="section about">
       <div class="container">
         <h2>About Me</h2>
@@ -369,12 +367,12 @@
             <h3>IIT Kanpur</h3>
            <b><p>B.Tech in Civil Engineering (2024 - 2028)</p></b> 
           </div>
-          <!-- Additional timeline items as required -->
+      
         </div>
       </div>
     </section>
 
-    <!-- Experience Section -->
+
     <section id="experience" class="section experience">
       <div class="container">
         <h2>Experience</h2>
@@ -408,32 +406,31 @@
       </div>
     </section>
 
-    <!-- Projects Section -->
     <section id="work" class="section projects">
       <div class="container">
         <h2>Projects</h2>
         <div class="project-cards">
-          <!-- EngiGrow Project -->
+   
           <div class="project-card">
-            <!-- <img src="assets/images/engigrow.png" alt="EngiGrow Project Screenshot" class="project-image" /> -->
+     
             <div class="project-info">
               <h3>EngiGrow</h3>
               <p>A collaboration platform fostering innovative solutions.</p>
               <p class="tech-stack">Technologies: Node.js, React, MongoDB</p>
             </div>
           </div>
-          <!-- IntleeBot Project -->
+      
           <div class="project-card">
-            <!-- <img src="assets/images/intleebot.png" alt="IntleeBot Project Screenshot" class="project-image" /> -->
+          
             <div class="project-info">
               <h3>IntleeBot</h3>
               <p>A simple chatbot built using APIs.</p>
               <p class="tech-stack">Technologies: Go, API Integration, React</p>
             </div>
           </div>
-          <!-- Password Vault Project -->
+  
           <div class="project-card">
-            <!-- <img src="assets/images/password-vault.png" alt="Password Vault Project Screenshot" class="project-image" /> -->
+            
             <div class="project-info">
               <h3>Password Vault</h3>
               <p>A secure password management solution built in Go.</p>
@@ -444,12 +441,12 @@
       </div>
     </section>
 
-    <!-- Skills Section -->
+
     <section id="skills" class="section skills">
       <div class="container">
         <h2>Skills</h2>
         <div class="skills-grid">
-          <!-- Web Development Skills -->
+      
           <div class="skill-category">
             <ul>
               <h3>Web Development</h3>
@@ -457,7 +454,7 @@
               <li>Node.js, Express.js, MERN</li>
             </ul>
           </div>
-          <!-- Backend Development Skills -->
+          
           <div class="skill-category">
             <ul>
               <h3>Backend Development</h3>
@@ -465,7 +462,7 @@
               <li>Backend with Go</li>
             </ul>
           </div>
-          <!-- AI/ML Skills -->
+         
           <div class="skill-category">
             <ul>
               <h3>AI/ML</h3>
@@ -473,7 +470,7 @@
               <li>CNN, ANN</li>
             </ul>
           </div>
-          <!-- General Skills -->
+     
           <div class="skill-category">
             <ul>
               <h3>General</h3>
@@ -485,7 +482,7 @@
       </div>
     </section>
 
-    <!-- Contact Section -->
+  
     <section id="contact" class="section contact">
       <div class="container">
         <h2>Contact Me</h2>
@@ -503,7 +500,7 @@
       </div>
     </section>
 
-    <!-- Footer -->
+
     <footer class="footer">
       <div class="container">
         <ul class="footer-links">
@@ -515,11 +512,9 @@
       </div>
     </footer>
 
-    <!-- Link JavaScript -->
+
     <script>
-      // Smooth Scrolling for Navigation Links
-    
-      // Basic Contact Form Submission (if applicable)
+   
       const contactForm = document.getElementById("contactForm");
       if (contactForm) {
         contactForm.addEventListener("submit", function (e) {
